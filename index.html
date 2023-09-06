@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo"><h3>Adham</h3></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <button id="menu-icon" class="menu-btn"><i class="fa fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-------------------------------- end nav -------------------------------------->
+
+    <div class="menu-bar" id="menu-Bar">
+        <div class="container menubar-container">
+            <a href="#"><i class="fa fa-home"></i></a>
+            <a href="#About"><i class="fa fa-user"></i></a>
+            <a href="#Skills"><i class="fa fa-dashboard"></i></a>
+            <a href="#Services"><i class="fa fa-box"></i></a>
+            <a href="#Portfolio"><i class="fab fa-windows"></i></a>
+            <a href="#Contact"><i class="fa fa-message"></i></a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuIcon = document.getElementById("menu-icon");
+            const menuBar = document.querySelector(".menu-bar");
+    
+            menuIcon.addEventListener("click", function () {
+                if (menuBar.style.display === "none" || menuBar.style.display === "") {
+                    menuBar.style.display = "block";
+                } else {
+                    menuBar.style.display = "none";
+                }
+            });
+        });
+    </script>
+    
+
+    <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <h1><span class="t-text">Hi</span>, I'm Adham</h1>
+                <h2>Front End <span class="typed-text">Web Developer</span></h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquam fugiat corporis ipsam mollitia quibusdam hic magnam voluptas vero rerum dicta, corrupti deleniti expedita magni quaerat officia deserunt sed illum!
+                </p>
+                <a href="mailto:adhamr1b@gmail.com"  class="btn btn-white">Hire Me</a>
+            </div>
+            <div class="header-right">
+                <div class="hero-image">
+                    <img src="img/Blue Gray Modern Technology Logo.jpg" alt="">
+                </div>
+                <div class="round">
+                    <div class="moon"></div>
+                </div>
+            </div>
+            <div class="Social-links">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+            </div>
+            <a href="mailto:adhamr1b@gmail.com" class="HireMe">Hire Me</a>
+        </div>
+    </header>
+
+    <!-------------------------------- end header -------------------------------------->
+
+    <section id="About">
+        <h2>About <span>Me</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis optio molestias quia, ut fugit dignissimos excepturi iusto fuga.</p>
+        <div class="container about-container">
+            <div class="about-cards">
+                <div class="card card-primary about-card">
+                    <span><i class="fa fa-award"></i></span>
+                    <h5>Experience</h5>
+                    <small>2+ Years Working</small>
+                </div>
+
+                <div class="card card-primary about-card">
+                    <span><i class="fa fa-book"></i></span>
+                    <h5>Projects</h5>
+                    <small>90+ Complated </small>
+                </div>
+
+                <div class="card card-primary about-card">
+                    <span><i class="fa fa-user"></i></span>
+                    <h5>Clintes</h5>
+                    <small>20+ Happy Clintes</small>
+                </div>
+            </div>
+        <div>
+            <h3>I'm Adham</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, ea repudiandae ullam laboriosam, beatae illo quibusdam, assumenda atque exercitationem nesciunt rem. Itaque esse libero cupiditate tempore dolores, soluta sed! Vero, deleniti dolorum molestiae, voluptatem adipisci necessitatibus blanditiis voluptates sequi similique quibusdam ducimus enim accusantium rem, nam neque eligendi. Sapiente mollitia molestias perferendis neque id nulla, reiciendis nemo.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, perspiciatis cum voluptatibus sint et consectetur aliquid, sed, maiores voluptas doloribus repellendus sapiente expedita asperiores excepturi esse eaque.
+            </p>
+            <a href="#" class="btn btn-white">Hire Me</a>
+        </div>
+    </section>
+
+    <!-------------------------------- end about -------------------------------------->
+
+    <section id="Skills">
+        <h2><span>My</span> Skills</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero earum autem, voluptatibus aperiam dolore consectetur?
+        </p>
+        <div class="container skills-container">
+            <div class="skills-left">
+                <div class="card card-primary skills-card">
+                    <span><i class="fab fa-html5"></i></span>
+                    <h5>Html</h5>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ea et fugiat ut sit mollitia dolores voluptatibus beatae.</small>
+                </div>
+
+                <div class="card card-primary skills-card">
+                    <span><i class="fab fa-css3"></i></span>
+                    <h5>Css</h5>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ea et fugiat ut sit mollitia dolores voluptatibus beatae.</small>
+                </div>
+
+                <div class="card card-primary skills-card">
+                    <span><i class="fab fa-js"></i></span>
+                    <h5>JavaScript</h5>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ea et fugiat ut sit mollitia dolores voluptatibus beatae.</small>
+                </div>
+            </div>
+            <div class="skills-right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet magni deleniti tenetur nam eaque, dolor, tempora atque perspiciatis ab numquam beatae accusantium rerum maiores voluptatibus quia laboriosam! Omnis, nobis unde? </p>
+                <div class="progess">
+                    <h5><i class="fab fa-python"></i> Python</h5>
+                    <h5>70%</h5>
+                    <div class="oute-row">
+                        <div class="innner-row"></div>
+                    </div>
+                </div>
+
+                <div class="progess">
+                    <h5><i class="fab fa-react"></i> React Js</h5>
+                    <h5>80%</h5>
+                    <div class="oute-row">
+                        <div class="innner-row"></div>
+                    </div>
+                </div>
+
+                <div class="progess">
+                    <h5><i class="fab fa-vuejs"></i> Vue Js</h5>
+                    <h5>60%</h5>
+                    <div class="oute-row">
+                        <div class="innner-row"></div>
+                    </div>
+                </div>
+
+                <div class="progess">
+                    <h5><i class="fab fa-php"></i> php</h5>
+                    <h5>50%</h5>
+                    <div class="oute-row">
+                        <div class="innner-row"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------- end skills -------------------------------------->
+
+
+    <section id="Services">
+        <h2>Services</h2>
+        <p class="under-title">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque non perferendis magnam sed facilis?
+        </p>
+        <div class="container services-container">
+            <div class="card services-card card-primary">
+                <span><i class="fa fa-code"></i></span>
+                <h4>Web Development</h4>
+                <p class="p-services">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolore veniam libero ad iusto nisi culpa quasi!
+                </p>
+            </div>
+
+            <div class="card services-card card-primary">
+                <span><i class="fab fa-android"></i></span>
+                <h4>Apps Development</h4>
+                <p class="p-services">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolore veniam libero ad iusto nisi culpa quasi!
+                </p>
+            </div>
+
+            <div class="card services-card card-primary">
+                <span><i class="fab fa-python"></i></span>
+                <h4>Python Development</h4>
+                <p class="p-services">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolore veniam libero ad iusto nisi culpa quasi.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------- end services -------------------------------------->
+
+    <section id="Portfolio">
+        <h2>Resent <span>Work</span></h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias eos possimus aperiam eius vel.</p>
+        <div class="container portfolio-container">
+            <div class="portfolio-tabs">
+                <div class="tab btn btn-sm btn-white tab-active" data-name="All">All</div>
+                <div class="tab btn btn-sm btn-white" data-name="Frontend">Frontend</div>
+                <div class="tab btn btn-sm btn-white" data-name="Backend">Backend</div>
+            </div>
+            <div>
+                <div class="portfolio-projects">
+                    <div class="project card" data-name="Backend">
+                        <img src="img/project1.png" alt="">
+                        <h5>Project 1 (Backend)</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam fugit autem dicta enim illo quasi odio consequatur.</p>
+                        <div class="project-action-aria">
+                            <a href=""><div class="btn-sm btn">Live</div></a>
+                            <a href=""><div class="btn-sm  btn btn-white">Github</div></a>
+                        </div>
+                    </div>
+
+                    <div class="project card" data-name="Backend">
+                        <img src="img/project2.png" alt="">
+                        <h5>Project 2 (Backend)</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam fugit autem dicta enim illo quasi odio consequatur.</p>
+                        <div class="project-action-aria">
+                            <a href=""><div class="btn-sm btn">Live</div></a>
+                            <a href=""><div class="btn-sm  btn btn-white">Github</div></a>
+                        </div>
+                    </div>
+
+                    <div class="project card" data-name="Backend">
+                        <img src="img/project3.png" alt="">
+                        <h5>Project 3 (Backend)</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam fugit autem dicta enim illo quasi odio consequatur.</p>
+                        <div class="project-action-aria">
+                            <a href=""><div class="btn-sm btn">Live</div></a>
+                            <a href=""><div class="btn-sm  btn btn-white">Github</div></a>
+                        </div>
+                    </div>
+
+                    <div class="project card" data-name="Frontend">
+                        <img src="img/project4.png" alt="">
+                        <h5>Project 4 (Frontend)</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam fugit autem dicta enim illo quasi odio consequatur.</p>
+                        <div class="project-action-aria">
+                            <a href=""><div class="btn-sm btn">Live</div></a>
+                            <a href=""><div class="btn-sm  btn btn-white">Github</div></a>
+                        </div>
+                    </div>
+
+                    <div class="project card" data-name="Frontend">
+                        <img src="img/project5.png" alt="">
+                        <h5>Project 5 (Frontend)</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam fugit autem dicta enim illo quasi odio consequatur.</p>
+                        <div class="project-action-aria">
+                            <a href=""><div class="btn-sm btn">Live</div></a>
+                            <a href=""><div class="btn-sm  btn btn-white">Github</div></a>
+                        </div>
+                    </div>
+
+                    <div class="project card" data-name="Frontend">
+                        <img src="img/project6.png" alt="">
+                        <h5>Project 6 (Frontend)</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam fugit autem dicta enim illo quasi odio consequatur.</p>
+                        <div class="project-action-aria">
+                            <a href=""><div class="btn-sm btn">Live</div></a>
+                            <a href=""><div class="btn-sm  btn btn-white">Github</div></a>
+                        </div>
+                    </div>
+                </div>
+        
+    </section>
+
+    <!-------------------------------- end portfolio -------------------------------------->
+
+    <section id="Contact">
+        <h2>Contact <span>Me</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid necessitatibus magnam, minima eum vitae ex alias.</p>
+        <div class="container container-contact">
+            <div class="contact-left">
+                <a href="mailto:adhamr1b@gmail.com" class="btn btn-white"><i class="fa fa-message"></i></a>
+                <a href="#" class="btn btn-white"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="btn btn-white"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="contact-right">
+                <form action="#">
+                    <input type="text" required placeholder="Your Name">
+                    <input type="email" required placeholder="Your Email">                    
+                    <input type="number" required placeholder="Your Number">                    
+                    <textarea name="message"  cols="30" rows="4" required placeholder="Your Message"></textarea>                    
+                    <button type="submit" class="btn btn-white">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            &copy; Copyright Created By Adham
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="typed.js-main/dist/typed.umd.js"></script>
+</body>
+</html>
